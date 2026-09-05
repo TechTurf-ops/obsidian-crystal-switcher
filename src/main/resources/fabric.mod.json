@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "obsidian_crystal_switcher",
+  "version": "${version}",
+  "name": "Obsidian Crystal Switcher",
+  "description": "Client-side: after a successful obsidian placement, switch to an End Crystal in the hotbar.",
+  "authors": ["Demir"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "obsidian_crystal_switcher.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}
